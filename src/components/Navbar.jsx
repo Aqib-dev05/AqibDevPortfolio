@@ -17,7 +17,7 @@ export default function Navbar() {
 
         <div className=" space-x-5 text-[22px] hidden lg:flex">
           <a href="#" className="hover:opacity-100 opacity-90 ">
-            Homies
+            Home
           </a>
           <a href="#" className="hover:opacity-100 opacity-90 ">
             About
