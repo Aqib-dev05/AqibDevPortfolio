@@ -42,7 +42,7 @@ export default function Navbar() {
       </nav>
 
       {isOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-[rgba(26,47,100,0.68)]  text-white  z-50">
+        <div className="fixed top-0 left-0 max-w-[100vw] h-full bg-[rgba(26,47,100,0.68)]  text-white  z-50">
           <div className=" h-full p-5">
             <button onClick={handleClose} className="text-black fixed z-50 top-7 right-10 text-2xl">
               <X color="white" size={48} />
