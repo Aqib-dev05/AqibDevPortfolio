@@ -12,6 +12,7 @@ export default function Navbar() {
   };
   return (
     <>
+    <header className="relative">
       <nav className="h-[10vh] border-b-1  sm:px-3   md:px-10 bg-[#0f172a] text-white flex items-center justify-between xl:px-50">
         <div className="text-[40px]  uppercase whitespace-nowrap">Aqib Ali</div>
 
@@ -70,6 +71,7 @@ export default function Navbar() {
           </div>
         </div>
       )}
+      </header>
     </>
   );
 }
