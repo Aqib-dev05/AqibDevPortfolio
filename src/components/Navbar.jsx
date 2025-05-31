@@ -12,7 +12,7 @@ export default function Navbar() {
   };
   return (
     <>
-    <header className="relative">
+    <header className="relative w-[100vw]">
       <nav className="h-[10vh] border-b-1  sm:px-3   md:px-10 bg-[#0f172a] text-white flex items-center justify-between xl:px-50">
         <div className="text-[40px]  uppercase whitespace-nowrap">Aqib Ali</div>
 
@@ -43,9 +43,9 @@ export default function Navbar() {
       </nav>
 
       {isOpen && (
-        <div className="fixed top-0 left-0 max-w-[100vw] h-full bg-[rgba(26,47,100,0.68)]  text-white  z-50">
-          <div className=" h-full p-5">
-            <button onClick={handleClose} className="text-black fixed z-50 top-7 right-10 text-2xl">
+        <div className="relative top-0 left-0 max-w-[100vw] h-[100vh] bg-[rgba(26,47,100,0.68)]  text-white  z-50">
+          <div className=" h-full p-5 ">
+            <button onClick={handleClose} className="text-black absolute z-50 top-[-70px] right-0 text-2xl">
               <X color="white" size={48} />
             </button>
             <div className="mt-26 items-center flex flex-col space-y-5 font-medium text-[24px]">
