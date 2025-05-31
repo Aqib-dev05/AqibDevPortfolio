@@ -1,9 +1,9 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import FirstMainPage from "./pages/FirstMainPage";
 
 function App() {
   return <>
-    <Navbar/>
+    <FirstMainPage/>
    
   
   </>;
