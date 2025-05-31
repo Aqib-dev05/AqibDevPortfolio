@@ -12,10 +12,10 @@ export default function Navbar() {
   };
   return (
     <>
-      <nav className="h-26 sm:px-3   md:px-10 bg-[#0f172a] text-white flex items-center justify-between xl:px-60">
+      <nav className="h-[10vh] border-b-1  sm:px-3   md:px-10 bg-[#0f172a] text-white flex items-center justify-between xl:px-50">
         <div className="text-[40px]  uppercase whitespace-nowrap">Aqib Ali</div>
 
-        <div className=" space-x-5 text-[22px] hidden lg:flex">
+        <div className=" space-x-12 text-[22px] hidden lg:flex">
           <a href="#" className="hover:opacity-100 opacity-90 ">
             Home
           </a>
